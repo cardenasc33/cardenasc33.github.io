@@ -24,6 +24,7 @@ function newElement() {
     if (inputValue === '') {
         alert("Type in a reminder title");
     } else {
+        li.className = "pageList";
         document.getElementById("reminderList").appendChild(li);
     }
     document.getElementById("myInput").value = "";

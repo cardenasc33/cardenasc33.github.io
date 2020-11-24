@@ -59,12 +59,11 @@ a {
     border-radius: 25px;
 }
 
-ul li {
+#mealList{
     text-align: center;
     cursor: pointer;
     alignment: center;
     position: relative;
-    right: 20px;
     padding: 10px;
     list-style-type: none;
     font-size: 18px;
@@ -72,14 +71,31 @@ ul li {
     border-radius: 25px;
 }
 
-ul li:hover {
+#reminderList{
+    text-align: center;
+    cursor: pointer;
+    alignment: center;
+    position: relative;
+    padding: 10px;
+    list-style-type: none;
+    font-size: 18px;
+    transition: 0.2s;
+    border-radius: 25px;
+}
+
+#mealList li:hover {
+    background: #6A9497;
+    border-radius: 25px;
+}
+
+#reminderList li:hover {
     background: #6A9497;
     border-radius: 25px;
 }
 
 .addReminder{
     position: absolute;
-    top: 460px;
+    top: 430px;
     right: 150px;
 }
 
@@ -88,7 +104,7 @@ ul li:hover {
 }
 
 
-ul{
+.pageList{
     font-weight: bold;
     justify-content: center;
     justify-self: center;
@@ -121,7 +137,7 @@ ul{
 .mealButton {
     position: absolute;
     right: 50px;
-    top: 890px;
+    top: 870px;
     padding: 10px;
     background: #F8F9FA;
     color: black;
